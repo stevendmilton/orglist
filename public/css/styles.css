@@ -1,0 +1,32 @@
+#navbar ul {
+  list-style-type: none;
+}
+#navbar ul li {
+  float: left;
+}
+#navbar ul li a {
+  text-align: center;
+  display: block;
+  width: 100px;
+  padding: 1em 0;
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  border-right: 2px solid white;
+}
+#navbar ul li a.lastitem{
+  border-right: none;
+}
+#navbar ul li a.current {
+  color: yellow;
+}
+
+.titleh1 {
+  text-align: center;
+}
+
+legend {
+  font-weight: 900;
+  font-size: 1.5em;
+}

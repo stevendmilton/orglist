@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Callings - Organization Maintenance</title>
+    <link rel="stylesheet" media="screen" type="text/css" href="css/styles.css">
+  </head>
+  <body>
+    <header>
+      <h1 class="titleh1">Church Callings</h1>
+      <nav id="navbar">
+        <ul>
+          <li><a href="/calling">Calling</a></li>
+          <li><a href="/member">Member</a></li>
+          <li><a href="/organization" class="current">Organization</a></li>
+          <li><a href="/position">Position</a></li>
+          <li><a href="/user">User</a></li>
+          <li><a href="/login" class="lastitem">Login</a></li><br><br>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Organization Maintenance</h1>
+      <form action='/addorg' method="post">
+        <fieldset>
+          <legend>Add Organization</legend>
+          <label for="organization">Organization:</label>
+          <input type="text" name="organization"><br><br>
+          <input type="submit" name="addorg" value="Add Organization">
+        </fieldset>
+      </form>
+    </main>
+
+  </body>
+</html>

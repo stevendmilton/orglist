@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Callings - Submit Calling</title>
+    <link rel="stylesheet" media="screen" type="text/css" href="css/styles.css">
+  </head>
+  <body>
+    <header>
+      <h1 class="titleh1">Church Callings</h1>
+      <nav id="navbar">
+        <ul>
+          <li><a href="/calling" class="current">Calling</a></li>
+          <li><a href="/member">Member</a></li>
+          <li><a href="/organization">Organization</a></li>
+          <li><a href="/position">Position</a></li>
+          <li><a href="/user">User</a></li>
+          <li><a href="/login" class="lastitem">Login</a></li><br><br>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Submit Calling</h1>
+      <form action='/submitCalling' method="post">
+        <fieldset>
+          <legend>Enter Calling Information</legend>
+          <label for="organization">Organization:</label>
+          <input type="text" name="organization"><br>
+          <label for="position">Position:</label>
+          <input type="text" name="position"><br>
+          <label for="firstname">First Name:</label>
+          <input type="text" name="firstname"><br>
+          <label for="lastname">Last Name:</label>
+          <input type="text" name="lastname"><br><br>
+          <input type="submit" name="submitcalling" value="Submit Calling">
+        </fieldset>
+      </form>
+    </main>
+
+  </body>
+</html>

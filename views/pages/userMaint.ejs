@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Callings - User Maintenance</title>
+    <link rel="stylesheet" media="screen" type="text/css" href="css/styles.css">
+  </head>
+  <body>
+    <header>
+      <h1 class="titleh1">Church Callings</h1>
+      <nav id="navbar">
+        <ul>
+          <li><a href="/calling">Calling</a></li>
+          <li><a href="/member">Member</a></li>
+          <li><a href="/organization">Organization</a></li>
+          <li><a href="/position">Position</a></li>
+          <li><a href="/user" class="current">User</a></li>
+          <li><a href="/login" class="lastitem">Login</a></li><br><br>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>User Maintenance</h1>
+      <form action='/validlogin' method="get">
+        <fieldset>
+          <legend>Add User</legend>
+          <label for="username">User Name:</label>
+          <input type="text" name="username">
+          <label for="password">Password:</label>
+          <input type="password" name="password"><br>
+          <label for="firstname">First Name:</label>
+          <input type="text" name="firstname">
+          <label for="lastname">Last Name:</label>
+          <input type="text" name="lastname"><br>
+          <label for="accessrights">Access Rights:</label>
+          <input type="text" name="accessrights">
+          <label for="active">Active:</label>
+          <input type="text" name="active"><br><br>
+          <input type="submit" name="adduser" value="Create">
+        </fieldset>
+      </form>
+    </main>
+
+  </body>
+</html>
